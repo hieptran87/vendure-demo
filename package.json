@@ -7,7 +7,7 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "start": "node index.js"
+    "start": "pm2 start process.json"
   },
   "dependencies": {
     "@vendure/admin-ui-plugin": "^0.14.0",
@@ -17,6 +17,7 @@
     "@vendure/email-plugin": "^0.14.0",
     "fs-extra": "^7.0.1",
     "graphql-request": "^1.8.2",
-    "sqlite3": "^4.0.9"
+    "sqlite3": "^4.0.9",
+    "pm2":"latest"
   }
 }
