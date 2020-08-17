@@ -7,7 +7,7 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "start": "pm2 start process.json"
+    "start": "./node_modules/pm2/bin/pm2 start process.json"
   },
   "dependencies": {
     "@vendure/admin-ui-plugin": "^0.14.0",
